@@ -11,8 +11,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("socketGUI.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setTitle("Chitter Chatter By Noah Juaquin");
+        primaryStage.setScene(new Scene(root, 530, 355));
         primaryStage.show();
     }
 
