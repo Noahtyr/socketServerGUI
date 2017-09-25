@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("socketGUI.fxml"));
         primaryStage.setTitle("Chitter Chatter By Noah Juaquin");
-        primaryStage.setScene(new Scene(root, 530, 355));
+        primaryStage.setScene(new Scene(root, 615, 430));
         primaryStage.show();
     }
 
